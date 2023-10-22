@@ -1,0 +1,97 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  width: 228px;
+  height: auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 1%;
+  color: #432C81;
+}
+
+.logo {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form-group button {
+  background-color: #432C81;;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-group label {
+    margin-bottom: 2px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 5px;
+  }
+
+  .form-group button {
+    padding: 5px 10px;
+  }
+}
+
