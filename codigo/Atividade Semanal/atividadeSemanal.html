@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="atividadeSemanal.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>HYPER HABITS</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="img.png" height="150" width="150">
+    </div>
+    <h1>Atividade Semanal</h1>
+    <form>
+      <div class="form-group">
+        <label for="exercicio">Exercício</label>
+        <input type="text" id="exercicio" name="exercicio">
+      </div>
+
+      <div class="form-group">
+        <label for="duracao">Duração</label>
+        <input type="text" id="duracao" name="duracao">
+      </div>
+
+      <div class="form-group">
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao" name="descricao" rows="4"></textarea>
+      </div>
+
+      <div class="form-group button1">
+        <button type="button" onclick="adicionarExercicio()">Adicionar</button>
+      </div>
+    </form>
+
+    <table id="tabelaExercicios">
+      <thead>
+        <tr>
+          <th>Exercício</th>
+          <th>Duração</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Os exercícios adicionados aparecerão aqui -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="atividadeSemanal.js"></script>
+</body>
+
+</html>
