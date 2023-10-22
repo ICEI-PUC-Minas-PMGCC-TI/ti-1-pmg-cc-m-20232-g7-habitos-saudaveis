@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HYPER HABITS</title>
+  <link rel="stylesheet" href="cadastro_alimentos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <div>
+    <img src="img.png" alt="imagem">
+  </div>
+
+
+  <div class="food_container">
+    <h2>Adicionar Comida Para Café da Manhã</h2>
+    <div class="line"></div>
+    <div style="display: flex;">
+      <h3>Pesquise Comida Por Nome:</h3>
+      <p style="margin-left: 50px; color: #0072BC;margin-top: 25px;font-size: 13px;">Adicionar Calorias Rápidas
+      </p>
+    </div>
+    <div style="display: flex;">
+      <input type="text" id="food_input" />
+      <button class="food_container__search_button">Pesquisar</button>
+    </div>
+    <div style="display: flex;margin-top: 20px;">
+      <h3>Ou Adicione Seus Alimentos Preferidos de </h3>
+      <h3 style="font-size: 18px;color: #0072BC;margin-left: 20px;margin-top: 20px;">Café da Manhã</h3>
+      <div class="food_container__down_arrow_image" id="down_arrow"><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcLbqk2RP_J0IpgUsCBX4cqCmnCGEbmJ0TA&usqp=CAU"
+          alt="down_arrow" height="20px" width="20px" /></div>
+      <p style="margin-left: 300px; margin-top: 20px;font-weight: bold;font-size: 12px;">Pesquisar por :</p>
+      <p style="margin-left: 5px; margin-top: 20px;font-weight: bold;font-size: 12px;color: #0072BC;">Padrão</p>
+      <div class="food_container__deafult_down_arrow_image" id="deafult_down_arrow"><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcLbqk2RP_J0IpgUsCBX4cqCmnCGEbmJ0TA&usqp=CAU"
+          alt="down_arrow" height="20px" width="20px" /></div>
+    </div>
+    <div style="display: flex;margin-top: 20px;">
+      <button class="food_container__add_checked_button" id="add_food_button">Adicionar </button>
+      <div style="margin-left: 100px; border-bottom: 2px solid #408140; display:flex;">
+        <div class="food_container__add_checked_elements">RECENTE</div>
+        <div class="food_container__add_checked_elements">FREQUENTE</div>
+        <div class="food_container__add_checked_elements">ALIMENTOS</div>
+        <div class="food_container__add_checked_elements">REFEIÇÕES</div>
+        <div class="food_container__add_checked_elements">RECEITAS</div>
+
+      </div>
+    </div>
+    <div style="display: flex;">
+      <div class="food_show_div">
+        <p id="exercise_show">Você não adicionou nenhum alimento ainda</p>
+        <ul id="food_information"></ul>
+        <p><b>DICA:</b> Os alimentos que forem adicionados com mais frequência aparecerão nessa lista para serem
+          adicionados mais <br />rapidamente</p>
+      </div>
+
+
+
+    </div>
+    <div style="display: flex;">
+      <button class="food_container__add_checked_button" style="margin-top: 20px;">Adicionar Selecionados</button>
+      <button class="food_container__add_checked_button" style="margin-top: 20px;margin-left: 750px;">Ver Items
+        Deletados</button>
+    </div>
+    <p style="margin-top: 20px;">Observação : Items selecionados de todas as abas serão adicionados</p>
+    <div id="food_form_container"></div>
+  </div>
+  <script src="cadastro_alimentos.js"></script>
+</body>
+
+</html>

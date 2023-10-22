@@ -1,0 +1,140 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.food_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.food_container>h2 {
+  margin-top: 1%;
+  font-size: 50px;
+  color: #432C81;
+}
+
+.line {
+  margin-top: 10px;
+  margin-right: 500px;
+  border-bottom: 3px solid #e6e6e6;
+  margin-bottom: 10px;
+}
+
+.food_container__add_checked_elements {
+  background: #51a351;
+  color: #fff;
+  border-style: solid;
+  border-left-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left-color: #408140;
+  border-right-width: 1px;
+  border-right-color: #408140;
+  border-top-width: 1px;
+  border-top-color: #408140;
+  border-bottom-color: #FFFFFF;
+  padding: 9px 15px;
+  font-size: 11px;
+  margin-left: 2px;
+}
+
+.food_container__down_arrow_image {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.food_container__deafult_down_arrow_image {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+#food_input {
+  border: none;
+  border-bottom: 2px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+  color: #555;
+  margin: 3px 0;
+  padding: 3px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  width: 590px;
+  box-shadow: inset 0px 5px 10px 1px #d4d3d3;
+  ;
+}
+
+.food_container__search_button {
+  font-size: 13px;
+  border: 1px solid #432C81;
+  border-radius: 5px;
+  padding: 2px 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #432C81;
+  margin-left: 50px;
+}
+
+.food_container__add_checked_button {
+  font-size: 13px;
+  border: 1px solid #432C81;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #432C81;
+  margin-left: 20px;
+}
+
+.food_show_div {
+  margin-top: 20px;
+  font-size: 12px;
+  background: #f6f6f6;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  text-align: left;
+  width: 1000px;
+  padding: 20px;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+}
+
+#adding {
+  width: 500px;
+  background: #f6f6f6;
+  padding: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+#adding>p,
+div>p {
+  color: #222222;
+  font-size: 14px;
+
+}
+
+#adding>div>input {
+  box-shadow: inset 0px 5px 10px 1px #d4d3d3;
+  ;
+  height: 20px;
+  width: 100px;
+  border-bottom: 2px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+}
+
+img {
+
+  width: 12%;
+  margin: auto;
+  display: block;
+}
