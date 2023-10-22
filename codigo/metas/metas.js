@@ -8,6 +8,7 @@ const validateMessage = () => {
         message.nextElementSibling.classList.remove('error-hidden')
     } else {
         alert("Meta cadastrada com sucesso!");
+        document.getElementById("message").value = "";
     }
 }
 
