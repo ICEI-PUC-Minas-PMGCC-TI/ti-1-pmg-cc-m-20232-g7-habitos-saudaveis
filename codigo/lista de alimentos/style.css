@@ -1,0 +1,91 @@
+/* Default styles for all screen sizes */
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#metas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 12%;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 1%;
+  color: #432C81;
+}
+
+textarea {
+  resize: none;
+  width: 100%; /* Use 100% width for responsiveness */
+  max-width: 400px; /* Limit the maximum width */
+  height: 500px;
+  background-color: #C4C4C4;
+  border-radius: 5%;
+  border-color: #C4C4C4;
+  margin-bottom: 1%;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.error {
+  font-size: 13px;
+  color: red;
+}
+
+.error-hidden {
+  display: none;
+}
+
+#message::placeholder {
+  margin-top: 2%;
+  padding: 10px;
+  color: black;
+  font-size: 1.3rem;
+}
+
+/* Styles for inputs */
+input {
+  border: 1px solid rgb(102, 101, 101);
+  padding: 5px 5px;
+  border-radius: 0.1rem;
+  width: 100%; /* Use 100% width for responsiveness */
+  max-width: 400px; /* Limit the maximum width */
+}
+
+input:focus {
+  border: transparent;
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Styles for the button */
+button {
+  cursor: pointer;
+  margin-top: 3%;
+  font-size: 1.2rem;
+  background-color: #432C81;
+  border: 2px solid #432C81;
+  padding: 5px;
+  color: white;
+  width: 100%; /* Use 100% width for responsiveness */
+  max-width: 420px; /* Limit the maximum width */
+  border-radius: 10px;
+}
+
+/* Media query for smaller screens (e.g., max-width 768px) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 100%; /* Adjust font size for smaller screens */
+  }
+
+  textarea {
+    height: 400px; /* Adjust the height for smaller screens */
+  }
+}
+
+
